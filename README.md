@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Dancing Script', cursive; /* Fuente script cursiva y fácil de entender */
-            background-image: url(https://i.pinimg.com/736x/12/b6/38/12b6383cd05188992dbccd9121e27812.jpg); /* Reemplaza con la URL de tu imagen de fondo */
+            background-image: url(https://i.pinimg.com/736x/e7/0a/21/e70a2199cc25c414b0b48a221fc04d84.jpg); /* Reemplaza con la URL de tu imagen de fondo */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
