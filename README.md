@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>My Princess - Ilysm Vicky  </title>
+    <title>My Princess - Ilysm Vicky 💞 </title>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet"> <!-- Fuente script de Google Fonts -->
     <style>
         body {
