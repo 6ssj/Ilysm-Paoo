@@ -1,110 +1,175 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>му ℓσνє 𝐕 ᥫ᭡ </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>My Princess - Ilysm Vicky  </title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet"> <!-- Fuente script de Google Fonts -->
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-image: url('https://i0.wp.com/dailyanimeart.com/wp-content/uploads/2015/04/stand-guard-ichigo-orihime-by-mai-kuu1.png?fit=1200%2C729&ssl=1');
+            font-family: 'Dancing Script', cursive; /* Fuente script cursiva y fácil de entender */
+            background-image: url(https://i.pinimg.com/736x/12/b6/38/12b6383cd05188992dbccd9121e27812.jpg); /* Reemplaza con la URL de tu imagen de fondo */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            text-align: left;
-            padding: 50px;
-            max-width: 800px;
-            margin: 0 auto;
+            color: #A8E6CF; /* Verde menta pastel */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            overflow-x: hidden;
         }
+
         h1 {
-            color: #FFC0CB;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.3), 0 0 15px rgba(255, 192, 203, 0.8), 0 0 30px rgba(255, 192, 203, 0.5), 0 0 40px rgba(255, 192, 203, 0.7), 0 0 50px rgba(255, 192, 203, 0.4);
-            text-align: center;
-            font-size: 3em;
-            font-weight: bold;
-            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 0 0 8px #B8E6B8, 2px 2px 4px #000; /* Brillo verde claro + contorno negro más fuerte */
+            margin-bottom: 20px;
         }
+
         p {
-            color: #fff;
-            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
-            margin-bottom: 15px;
-            background-color: rgba(0, 0, 0, 0.5);
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 15px 0;
             padding: 10px;
-            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.3); /* Fondo semi-transparente para contorno */
+            border-radius: 10px;
+            text-shadow: 0 0 8px #B8E6B8, 2px 2px 4px #000; /* Brillo verde claro + contorno negro más fuerte */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); /* Iluminación más intensa */
         }
-        .italics {
-            font-style: italic;
+
+        .buttons {
+            margin-top: 30px;
+            display: flex;
+            gap: 20px;
         }
-        .center-content {
-            text-align: center;
-        }
+
         button {
-            padding: 10px 20px;
-            background-color: #FFC0CB;
-            color: white;
+            font-family: 'Dancing Script', cursive; /* Fuente script también en botones */
+            font-size: 1.5em;
+            padding: 15px 30px;
             border: none;
+            border-radius: 10px;
+            background-color: #B8E6B8; /* Verde lima clarito */
+            color: #000;
             cursor: pointer;
-            margin: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 0 10px rgba(255, 192, 203, 0.8), 0 0 20px rgba(255, 192, 203, 0.5);
+            transition: all 0.3s;
+            text-shadow: 0 0 8px #B8E6B8, 2px 2px 4px #000; /* Brillo verde claro + contorno negro más fuerte */
         }
+
         button:hover {
-            background-color: #FFB6C1;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 192, 203, 0.9), 0 0 25px rgba(255, 192, 203, 0.6);
+            background-color: #A8E6CF;
         }
+
         #noButton {
             position: relative;
         }
-        #mensaje {
-            color: #fff;
-            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+
+        #loveMessage {
+            display: none;
+            font-size: 2em;
+            margin-top: 20px;
+            text-shadow: 0 0 8px #B8E6B8, 2px 2px 4px #000; /* Brillo verde claro + contorno negro más fuerte */
         }
-        #mensaje p {
-            margin-bottom: 10px;
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 10px;
-            border-radius: 5px;
+
+        #extraText {
+            display: none;
+            margin-top: 20px;
+        }
+
+        /* Estilos para móvil 9:16 */
+        @media (orientation: portrait) {
+            body {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            p {
+                font-size: 1em;
+            }
+            button {
+                font-size: 1.2em;
+                padding: 10px 20px;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>ᴍɪ ᴘʀɪɴᴄᴇꜱᴀ</h1>
-    <p class="italics">Desde hace tiempo he estado pensando en lo muchisimo que significas para mi, en todo lo que hemos compartido, por poco o mucho que parezca, me haz hecho sentir cosas que no sentía hace tiempo. No estoy escribiendo esto solo por impulso ni para sonar bonito, sino porque realmente quiero que sepas lo que siento y lo que quiero contigo.</p>
-    <p class="italics">Desde que empezamos a hablar, las cosas cambiaron. Poco a poco me fui dando cuenta de que me gustaba hablar contigo, que me hacía bien, que lo necesitaba. Estar en llamada contigo se volvió una de mis partes favoritas del día. Me siento tranquilo, me siento yo, y eso no me pasa con cualquiera.</p>
-    <p class="italics">Sé que no llevamos una eternidad conociéndonos, pero siento que en este tiempo pasaron cosas que valen más que la cantidad de días. Me hiciste sentir acompañado, escuchado, y me di cuenta de que quiero estar contigo de una forma mas seria. No es algo q lo diga asi nda mas y tampoco estoy buscando una relación solo por tenerla.</p>
-    <p class="italics">Queria preguntarte algo q ya me da muchisima pena pero es lo del final. No te prometo que todo será perfecto, porque no lo va a ser, pero sí te prometo que voy a dar lo mejor de mí. Quiero que sepas que, si estás conmigo, no te va a faltar nada. No te va a faltar ni tiempo, ni cariño, ni amor.</p>
-    <p class="italics">Me importas, me gustas, y me encantaría poder compartir todo esto contigo, no solo como alguien que te aprecia, sino como alguien que quiere algo de verdad a tu lado. Gracias por hacerme sentir tan bien en tan poco tiempo, este tiempo contigo ha sido de lo mejor que me ha pasado.</p>
-    <div class="center-content">
-        <p class="italics">¿Puedo ser tu novio?<br>
-        Puedo ser esa persona que esté para ti, que te apoye, que te escuche, que te acompañe en lo bueno y en lo difícil también?</p>
-        <button id="siButton" onclick="cambiarTexto()">Sí</button>
-        <button id="noButton" onmouseover="moverBoton()">No</button>
-    </div>
-    <div id="mensaje"></div>
-    <script>
-        function cambiarTexto() {
-            document.getElementById("mensaje").innerHTML = `
-                <p>Gracias por decir que sí. En serio, gracias por confiar en mí, por aceptarme ser tu pareja, aunque apenas comienza, ya significa muchísimo para mi.</p>
-                <p>Te prometeria mil cosas aunque solo sean palabras y proximamente te lo demuestro con hechos, pero sí te prometo algo real: compromiso, respeto, cuidado y tiempo. Prometo darte lo mejor de mí, incluso en los días que me sienta para la mierda.</p>
-                <p>Te aviso que no te quiero para pasar el rato, ni por llenar un vacio, te quiero para darte todo lo que te mereces, el amor que te mereces, demostrarte como de verdad tienes que ser tratada. Algo que tenga sentido, que crezca cada vez mas con el tiempo.</p>
-                <p>Me importas muchisiimoo mas de lo que imaginás, por vos estoy dispuesto a dar mucho, basicamente todo. No porque lo sienta como una obligación, sino porque yo quiero hacerlo. Porque cuando alguien te hace sentir bien con solo estar, lo mínimo que uno puede querer es hacer lo mismo por ella.</p>
-                <p>Quiero cuidarte, apoyarte, estar siempre para vos, quiero ser tu paz, no causarte caos. Porque algo que lo tengo claro, es que vale la pena intentarlo contigo. Gracias por darme esta oportunidad. No la pienso desaprovechar.</p>
-            `;
-            document.getElementById("noButton").style.display = "none";
-        }
+    <h1>My Princess - Ilysm Vicky </h1>
+    
+    <p>Espero que ahorita la estés pasando de lo mejor con tu familia y seres queridos festejando este ultimo día del año, quería desearte feliz año nuevo y que se te cumplan todas tus metas, que este año te trate de lo mejor, que sea muchísimo mejor que los anteriores. Te deseo lo mejor, tanto a ti como a tus seres queridos.</p>
+    <p>También otra cosita que quería decirte aunque seguro ya sabes JKDSAJKDS, ns por donde comenzar</p>
+    <p>No sé cómo decirte que nunca quise a nadie como te quiero a ti. Que eres la única que imagino en mi vida, la única que quiero ver al final de cada día. Ninguna persona significó lo que tú significas para mí y lo hiciste en tiempo récord. Lograste llenar mi corazón y hacerme morir de emoción por tan solo un mensaje. Eres lo mejor que me pasó, lo más bonito que tengo, la tranquilidad que no sabía que necesitaba.</p>
+    <p>Me enamoras con tus detalles, con tu forma de ser, con tus errores y tus pasiones. Me enamoras cuando te ríes, cuando te enojas poquito, cuando dices mi nombre, cuando me hablas bonito sin darte cuenta. Me enamoras incluso en lo que no haces, porque simplemente existir ya te vuelve especial.</p>
+    <p>Te amo tanto que a veces me quedo sin palabras, pero nunca sin ganas. Sin ganas de cuidarte, de elegirte, de estar para ti, de seguir construyendo algo que solo tú y yo entendemos, y espero que siga así, porque solo te quiero a ti, solamente quiero estar junto a ti.</p>
+    <p>Me importas, me gustas, y me encantaría poder compartirlo todo contigo. Gracias por hacerme sentir tan bien en tan poco tiempo, este tiempo contigo ha sido de lo mejor que me ha pasado. Y si todo esto aún no te lo deja claro, déjame decirlo una última vez: te amo, Vicky. Me gustas de verdad, me gustas muchísimo.</p>
+    <p>¿Me permitirías ser tu novio? Puedo ser esa persona que esté para ti, que te apoye, que te escuche, que te acompañe en lo bueno y en lo difícil también?</p>
 
-        function moverBoton() {
-            const button = document.getElementById("noButton");
-            const maxX = window.innerWidth - button.offsetWidth - 20;
-            const maxY = window.innerHeight - button.offsetHeight - 20;
-            let randomX, randomY;
-            do {
-                randomX = Math.floor(Math.random() * maxX);
-                randomY = Math.floor(Math.random() * maxY);
-            } while (randomX > 200 && randomX < maxX - 200 && randomY > 100 && randomY < maxY - 100); // Evita el área central para no superponerse al texto
-            button.style.left = randomX + "px";
-            button.style.top = randomY + "px";
-            button.style.position = "absolute";
-        }
+    <div class="buttons">
+        <button id="yesButton">Sí</button>
+        <button id="noButton">No</button>
+    </div>
+
+    <div id="loveMessage">TE AMOOOOOOO</div>
+    <div id="extraText">
+        <p>Gracias por decir que sí. En serio, gracias por confiar en mí, por aceptarme ser tu pareja, aunque apenas comienza, ya significa muchísimo para mi.</p>
+        <p>Te prometería mil cosas aunque solo sean palabras y próximamente te lo demuestro con hechos, pero sí te prometo algo real: compromiso, respeto, cuidado y tiempo. Prometo darte lo mejor de mí, incluso en los días que me sienta para la mierda.</p>
+        <p>Te aviso que no te quiero para pasar el rato, ni por llenar un vacio, te quiero para darte todo lo que te mereces, el amor que te mereces, demostrarte como de verdad tienes que ser tratada. Algo que tenga sentido, que crezca cada vez mas con el tiempo.</p>
+        <p>Me importas muchisiimoo mas de lo que imaginás, por ti estoy dispuesto a dar mucho, basicamente todo. No porque lo sienta como una obligación, sino porque yo quiero hacerlo. Porque cuando alguien te hace sentir bien con solo estar, lo mínimo que uno puede querer es hacer lo mismo por ella.</p>
+        <p>Quiero cuidarte, apoyarte, estar siempre para vos, quiero ser tu paz, no causarte caos. Porque algo que lo tengo claro, es que vale la pena intentarlo contigo. Gracias por darme esta oportunidad. No la pienso desaprovechar.</p>
+    </div>
+
+    <script>
+        const noButton = document.getElementById('noButton');
+        const yesButton = document.getElementById('yesButton');
+        const loveMessage = document.getElementById('loveMessage');
+        const extraText = document.getElementById('extraText');
+        const buttons = document.querySelector('.buttons');
+
+        let noClickCount = 0;
+        const messages = [
+            "Por qué no amor??",
+            "Segura mi niña?",
+            "Totalmente segura amor??",
+            "Porfisss di que sí"
+        ];
+
+        noButton.addEventListener('click', function(event) {
+            event.preventDefault(); // Evita el click real
+
+            // Hace el botón más pequeño
+            const currentSize = parseFloat(window.getComputedStyle(noButton).fontSize);
+            noButton.style.fontSize = (currentSize * 0.9) + 'px';
+            noButton.style.padding = (parseFloat(noButton.style.padding || '15px') * 0.9) + 'px';
+
+            // Muestra mensaje
+            if (noClickCount < messages.length) {
+                noButton.textContent = messages[noClickCount];
+                noClickCount++;
+            } else {
+                // Después de los mensajes, el botón se mueve
+                const randomX = Math.random() * (window.innerWidth - noButton.offsetWidth);
+                const randomY = Math.random() * (window.innerHeight - noButton.offsetHeight);
+                noButton.style.position = 'absolute';
+                noButton.style.left = randomX + 'px';
+                noButton.style.top = randomY + 'px';
+            }
+        });
+
+        yesButton.addEventListener('click', function() {
+            // Oculta los botones y muestra el mensaje de amor
+            buttons.style.display = 'none';
+            loveMessage.style.display = 'block';
+            
+            // Después de un breve delay, muestra el texto extra
+            setTimeout(() => {
+                extraText.style.display = 'block';
+            }, 2000);
+        });
     </script>
 </body>
 </html>
-
