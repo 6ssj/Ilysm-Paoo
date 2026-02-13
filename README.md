@@ -128,12 +128,24 @@
         <p>Quiero estar siempre para vos, quiero ayudarte cuando te sientas mal, no causarte mas problemas de los que ya tienes. Algo que lo tengo muyyyy clarisimo es que vale la pena intentarlo contigo. Gracias por darme esta oportunidad. No la pienso desaprovechar.</p>
     </div>
 
+    <!-- Música de fondo -->
+    <audio id="bgMusic" autoplay loop preload="auto">
+        <source src="https://www.ytmp3.cc/download.php?video_id=a7ms3r-qt0E&type=mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
     <script>
         const noButton = document.getElementById('noButton');
         const yesButton = document.getElementById('yesButton');
         const loveMessage = document.getElementById('loveMessage');
         const extraText = document.getElementById('extraText');
         const buttons = document.querySelector('.buttons');
+        const bgMusic = document.getElementById('bgMusic');
+
+        // Iniciar la música desde el minuto 0:48 (48 segundos)
+        bgMusic.addEventListener('loadedmetadata', function() {
+            bgMusic.currentTime = 48; // Salta a 48 segundos
+        });
 
         let noClickCount = 0;
         const messages = [
