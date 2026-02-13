@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Dancing Script', cursive; /* Fuente script cursiva y fácil de entender */
-            background-image: url('https://media.giphy.com/media/3o7TKz9bX9Z8J8J8J8/giphy.gif'); /* Reemplaza con tu URL de GIF */
+            background-image: url(['https://media.giphy.com/media/3o7TKz9bX9Z8J8J8J8/giphy.gif'](https://i.pinimg.com/originals/df/ed/26/dfed26e4619107663b5a45d0c8a7da3d.gif); /* Reemplaza con tu URL de GIF */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
