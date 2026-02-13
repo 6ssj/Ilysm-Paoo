@@ -1,17 +1,18 @@
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>My Princess - Ilysm Vicky 💞 </title>
+    <title>My Princess - Ilysm Pao 💞</title>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet"> <!-- Fuente script de Google Fonts -->
     <style>
         body {
             font-family: 'Dancing Script', cursive; /* Fuente script cursiva y fácil de entender */
-            background-image: url(https://i.pinimg.com/736x/e7/0a/21/e70a2199cc25c414b0b48a221fc04d84.jpg); /* Reemplaza con la URL de tu imagen de fondo */
+            background-color: #FFB6C1; /* Rosa pastel sólido */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            color: #A8E6CF; /* Verde menta pastel */
+            color: #FFFFFF; /* Blanco para letras */
             margin: 0;
             padding: 20px;
             display: flex;
@@ -21,11 +22,12 @@
             min-height: 100vh;
             text-align: center;
             overflow-x: hidden;
+            position: relative; /* Para posicionar el oso */
         }
 
         h1 {
             font-size: 2.5em;
-            text-shadow: 0 0 8px #B8E6B8, 2px 2px 4px #000; /* Brillo verde claro + contorno negro más fuerte */
+            text-shadow: 0 0 10px #FF69B4, 2px 2px 4px #000; /* Brillo rosa + contorno negro */
             margin-bottom: 20px;
         }
 
@@ -34,16 +36,20 @@
             line-height: 1.6;
             margin: 15px 0;
             padding: 10px;
-            background-color: rgba(0, 0, 0, 0.3); /* Fondo semi-transparente para contorno */
+            background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente blanco para contorno */
             border-radius: 10px;
-            text-shadow: 0 0 8px #B8E6B8, 2px 2px 4px #000; /* Brillo verde claro + contorno negro más fuerte */
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); /* Iluminación más intensa */
+            text-shadow: 0 0 10px #FF69B4, 2px 2px 4px #000; /* Brillo rosa + contorno negro */
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3); /* Iluminación rosa */
         }
 
         .buttons {
             margin-top: 30px;
             display: flex;
             gap: 20px;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
         }
 
         button {
@@ -52,15 +58,15 @@
             padding: 15px 30px;
             border: none;
             border-radius: 10px;
-            background-color: #B8E6B8; /* Verde lima clarito */
-            color: #000;
+            background-color: #FF69B4; /* Rosa fuerte */
+            color: #FFFFFF; /* Blanco */
             cursor: pointer;
             transition: all 0.3s;
-            text-shadow: 0 0 8px #B8E6B8, 2px 2px 4px #000; /* Brillo verde claro + contorno negro más fuerte */
+            text-shadow: 0 0 10px #FF69B4, 2px 2px 4px #000; /* Brillo rosa + contorno negro */
         }
 
         button:hover {
-            background-color: #A8E6CF;
+            background-color: #FFB6C1; /* Rosa pastel más claro */
         }
 
         #noButton {
@@ -71,12 +77,22 @@
             display: none;
             font-size: 2em;
             margin-top: 20px;
-            text-shadow: 0 0 8px #B8E6B8, 2px 2px 4px #000; /* Brillo verde claro + contorno negro más fuerte */
+            text-shadow: 0 0 10px #FF69B4, 2px 2px 4px #000; /* Brillo rosa + contorno negro */
         }
 
         #extraText {
             display: none;
             margin-top: 20px;
+        }
+
+        /* Oso en la parte derecha */
+        #bear {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 150px; /* Ajusta el tamaño según necesites */
+            height: auto;
         }
 
         /* Estilos para móvil 9:16 */
@@ -94,18 +110,21 @@
                 font-size: 1.2em;
                 padding: 10px 20px;
             }
+            #bear {
+                width: 100px; /* Más pequeño en móvil */
+            }
         }
     </style>
 </head>
 <body>
-    <h1>My Princess - Ilysm Vicky </h1>
+    <h1>My Princess - Ilysm Pao 💞</h1>
     
     <p>Espero que ahorita la estés pasando de lo mejor con tu familia y seres queridos festejando este ultimo día del año, quería desearte feliz año nuevo y que se te cumplan todas tus metas, que este año te trate de lo mejor, que sea muchísimo mejor que los anteriores. Te deseo lo mejor, tanto a ti como a tus seres queridos.</p>
     <p>También otra cosita que quería decirte aunque seguro ya sabes JKDSAJKDS, ns por donde comenzar</p>
     <p>No sé cómo decirte que nunca quise a nadie como te quiero a ti. Que eres la única que imagino en mi vida, la única que quiero ver al final de cada día. Ninguna persona significó lo que tú significas para mí y lo hiciste en tiempo récord. Lograste llenar mi corazón y hacerme morir de emoción por tan solo un mensaje. Eres lo mejor que me pasó, lo más bonito que tengo, la tranquilidad que no sabía que necesitaba.</p>
     <p>Me enamoras con tus detalles, con tu forma de ser, con tus errores y tus pasiones. Me enamoras cuando te ríes, cuando te enojas poquito, cuando dices mi nombre, cuando me hablas bonito sin darte cuenta. Me enamoras incluso en lo que no haces, porque simplemente existir ya te vuelve especial.</p>
     <p>Te amo tanto que a veces me quedo sin palabras, pero nunca sin ganas. Sin ganas de cuidarte, de elegirte, de estar para ti, de seguir construyendo algo que solo tú y yo entendemos, y espero que siga así, porque solo te quiero a ti, solamente quiero estar junto a ti.</p>
-    <p>Me importas, me gustas, y me encantaría poder compartirlo todo contigo. Gracias por hacerme sentir tan bien en tan poco tiempo, este tiempo contigo ha sido de lo mejor que me ha pasado. Y si todo esto aún no te lo deja claro, déjame decirlo una última vez: te amo, Vicky. Me gustas de verdad, me gustas muchísimo.</p>
+    <p>Me importas, me gustas, y me encantaría poder compartirlo todo contigo. Gracias por hacerme sentir tan bien en tan poco tiempo, este tiempo contigo ha sido de lo mejor que me ha pasado. Y si todo esto aún no te lo deja claro, déjame decirlo una última vez: te amo, Pao. Me gustas de verdad, me gustas muchísimo.</p>
     <p>¿Me permitirías ser tu novio? Puedo ser esa persona que esté para ti, que te apoye, que te escuche, que te acompañe en lo bueno y en lo difícil también?</p>
 
     <div class="buttons">
@@ -121,6 +140,9 @@
         <p>Me importas muchisiimoo mas de lo que imaginás, por ti estoy dispuesto a dar mucho, basicamente todo. No porque lo sienta como una obligación, sino porque yo quiero hacerlo. Porque cuando alguien te hace sentir bien con solo estar, lo mínimo que uno puede querer es hacer lo mismo por ella.</p>
         <p>Quiero cuidarte, apoyarte, estar siempre para vos, quiero ser tu paz, no causarte caos. Porque algo que lo tengo claro, es que vale la pena intentarlo contigo. Gracias por darme esta oportunidad. No la pienso desaprovechar.</p>
     </div>
+
+    <!-- Imagen del oso en la parte derecha -->
+    <img id="bear" src="https://i.pinimg.com/736x/5c/8b/8a/5c8b8a8a8a8a8a8a8a8a8a8a8a8a8a8a.jpg" alt="Oso rosa"> <!-- Reemplaza con una URL de imagen de oso rosa si es necesario -->
 
     <script>
         const noButton = document.getElementById('noButton');
