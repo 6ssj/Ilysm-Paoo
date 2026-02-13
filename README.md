@@ -1,6 +1,3 @@
-html
-
-Copy code
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -11,9 +8,10 @@ Copy code
         body {
             font-family: 'Dancing Script', cursive; /* Fuente script cursiva y fácil de entender */
             background-image: url('https://i.pinimg.com/originals/ea/51/e4/ea51e4af67919f7b2e0ae417f063952e.gif'); /* GIF como fondo */
-            background-size: cover;
+            background-size: 80%; /* Más alejado, zoom out para que parezca más distante */
             background-position: center;
             background-repeat: no-repeat;
+            background-attachment: fixed; /* Efecto de profundidad, hace que el fondo se vea más fijo y alejado */
             color: #FFFFFF; /* Blanco para letras */
             margin: 0;
             padding: 20px;
@@ -25,12 +23,24 @@ Copy code
             text-align: center;
             overflow-x: hidden;
             position: relative; /* Para posicionar elementos */
+            animation: fadeIn 2s ease-in-out; /* Animación suave para que aparezca todo más lindo */
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
 
         h1 {
             font-size: 2.5em;
-            text-shadow: 0 0 15px #FF69B4, 3px 3px 6px #000; /* Brillo rosa más iluminado + contorno negro */
+            text-shadow: 0 0 20px #FF69B4, 3px 3px 6px #000; /* Brillo rosa aún más iluminado + contorno negro */
             margin-bottom: 20px;
+            animation: glow 2s ease-in-out infinite alternate; /* Efecto de brillo pulsante para más romanticismo */
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 20px #FF69B4, 3px 3px 6px #000; }
+            to { text-shadow: 0 0 30px #FF69B4, 3px 3px 6px #000; }
         }
 
         p {
@@ -40,8 +50,13 @@ Copy code
             padding: 10px;
             background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente blanco para contorno */
             border-radius: 10px;
-            text-shadow: 0 0 15px #FF69B4, 3px 3px 6px #000; /* Brillo rosa más iluminado + contorno negro */
-            box-shadow: 0 0 20px rgba(255, 105, 180, 0.5); /* Iluminación rosa más intensa */
+            text-shadow: 0 0 20px #FF69B4, 3px 3px 6px #000; /* Brillo rosa aún más iluminado + contorno negro */
+            box-shadow: 0 0 25px rgba(255, 105, 180, 0.6); /* Iluminación rosa más intensa y suave */
+            transition: transform 0.3s ease; /* Transición suave al hover */
+        }
+
+        p:hover {
+            transform: scale(1.02); /* Ligero zoom al pasar el mouse para más interacción */
         }
 
         .buttons {
@@ -64,12 +79,14 @@ Copy code
             color: #FFFFFF; /* Blanco */
             cursor: pointer;
             transition: all 0.3s;
-            text-shadow: 0 0 15px #FF69B4, 3px 3px 6px #000; /* Brillo rosa más iluminado + contorno negro */
+            text-shadow: 0 0 20px #FF69B4, 3px 3px 6px #000; /* Brillo rosa aún más iluminado + contorno negro */
+            box-shadow: 0 0 15px rgba(255, 105, 180, 0.5); /* Sombra rosa para más profundidad */
         }
 
         button:hover {
-            background-color: #FF69B4; /* Rosa fuerte, unificado para consistencia */
-            box-shadow: 0 0 20px rgba(255, 105, 180, 0.8); /* Iluminación rosa más intensa */
+            background-color: #FFB6C1; /* Rosa pastel para hover, más suave */
+            box-shadow: 0 0 25px rgba(255, 105, 180, 0.8); /* Iluminación rosa más intensa al hover */
+            transform: scale(1.05); /* Ligero crecimiento para efecto bonito */
         }
 
         #noButton {
@@ -80,18 +97,32 @@ Copy code
             display: none;
             font-size: 2em;
             margin-top: 20px;
-            text-shadow: 0 0 15px #FF69B4, 3px 3px 6px #000; /* Brillo rosa más iluminado + contorno negro */
+            text-shadow: 0 0 20px #FF69B4, 3px 3px 6px #000; /* Brillo rosa aún más iluminado + contorno negro */
+            animation: heartBeat 1s ease-in-out infinite; /* Animación de latido para más emoción */
+        }
+
+        @keyframes heartBeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
         }
 
         #extraText {
             display: none;
             margin-top: 20px;
+            animation: slideIn 1s ease-out; /* Animación de deslizamiento para la aparición */
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
         }
 
         /* Estilos para móvil 9:16 */
         @media (orientation: portrait) {
             body {
                 padding: 10px;
+                background-size: 100%; /* Ajuste para móvil, menos alejado para mejor visibilidad */
             }
             h1 {
                 font-size: 2em;
