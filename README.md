@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Dancing Script', cursive; /* Fuente script cursiva y fácil de entender */
-            background-image: url('https://media.giphy.com/media/3o7TKz9bX9Z8J8J8J8/giphy.gif'](https://i.pinimg.com/originals/df/ed/26/dfed26e4619107663b5a45d0c8a7da3d.gif'); /* Reemplaza con tu URL de GIF */
+            background-image: url('https://i.pinimg.com/originals/df/ed/26/dfed26e4619107663b5a45d0c8a7da3d.gif'); /* GIF proporcionado como fondo */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -56,7 +56,7 @@
             padding: 15px 30px;
             border: none;
             border-radius: 10px;
-            background-color: #FF69B4; /* Rosa fuerte */
+            background-color: #FFB6C1; /* Rosa pastel, igual que el tono base */
             color: #FFFFFF; /* Blanco */
             cursor: pointer;
             transition: all 0.3s;
@@ -65,7 +65,7 @@
         }
 
         button:hover {
-            background-color: #FFB6C1; /* Rosa pastel más claro */
+            background-color: #FF69B4; /* Rosa más fuerte al hover para contraste */
             box-shadow: 0 0 15px rgba(255, 105, 180, 0.9); /* Más brillo al hover */
         }
 
