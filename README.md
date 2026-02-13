@@ -1,4 +1,3 @@
-
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +7,7 @@
     <style>
         body {
             font-family: 'Dancing Script', cursive; /* Fuente script cursiva y fácil de entender */
-            background: linear-gradient(135deg, #FFB6C1 0%, #FF69B4 100%); /* Gradiente rosa pastel para mejor calidad */
+            background-image: url('https://media.giphy.com/media/3o7TKz9bX9Z8J8J8J8/giphy.gif'); /* Reemplaza con tu URL de GIF */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -22,7 +21,6 @@
             min-height: 100vh;
             text-align: center;
             overflow-x: hidden;
-            position: relative; /* Para posicionar el oso */
         }
 
         h1 {
@@ -87,17 +85,6 @@
             margin-top: 20px;
         }
 
-        /* Oso en la parte derecha */
-        #bear {
-            position: absolute;
-            right: 20px;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 150px; /* Ajusta el tamaño según necesites */
-            height: auto;
-            opacity: 0.9; /* Ligera transparencia para integrarse mejor */
-        }
-
         /* Estilos para móvil 9:16 */
         @media (orientation: portrait) {
             body {
@@ -112,9 +99,6 @@
             button {
                 font-size: 1.2em;
                 padding: 10px 20px;
-            }
-            #bear {
-                width: 100px; /* Más pequeño en móvil */
             }
         }
     </style>
@@ -143,9 +127,6 @@
         <p>Me importas muchisiimoo mas de lo que imaginás, por ti estoy dispuesto a dar mucho, basicamente todo. No porque lo sienta como una obligación, sino porque yo quiero hacerlo. Porque cuando alguien te hace sentir bien con solo estar, lo mínimo que uno puede querer es hacer lo mismo por ella.</p>
         <p>Quiero cuidarte, apoyarte, estar siempre para vos, quiero ser tu paz, no causarte caos. Porque algo que lo tengo claro, es que vale la pena intentarlo contigo. Gracias por darme esta oportunidad. No la pienso desaprovechar.</p>
     </div>
-
-    <!-- Imagen del oso en la parte derecha -->
-    <img id="bear" src="https://i.pinimg.com/564x/8a/5c/8b/8a5c8b8a8a8a8a8a8a8a8a8a8a8a8a8a.jpg" alt="Oso rosa"> <!-- URL de imagen de oso rosa teddy bear -->
 
     <script>
         const noButton = document.getElementById('noButton');
