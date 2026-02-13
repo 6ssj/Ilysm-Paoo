@@ -7,11 +7,10 @@
     <style>
         body {
             font-family: 'Dancing Script', cursive; /* Fuente script cursiva y fácil de entender */
-            background-image: url('https://i.pinimg.com/originals/ea/51/e4/ea51e4af67919f7b2e0ae417f063952e.gif'); /* GIF como fondo */
-            background-size: 80%; /* Más alejado, zoom out para que parezca más distante */
+            background: linear-gradient(135deg, #FFB6C1 0%, #FF69B4 100%); /* Gradiente rosa pastel para mejor calidad */
+            background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-attachment: fixed; /* Efecto de profundidad, hace que el fondo se vea más fijo y alejado */
             color: #FFFFFF; /* Blanco para letras */
             margin: 0;
             padding: 20px;
@@ -22,25 +21,13 @@
             min-height: 100vh;
             text-align: center;
             overflow-x: hidden;
-            position: relative; /* Para posicionar elementos */
-            animation: fadeIn 2s ease-in-out; /* Animación suave para que aparezca todo más lindo */
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+            position: relative; /* Para posicionar el oso */
         }
 
         h1 {
             font-size: 2.5em;
-            text-shadow: 0 0 20px #FF69B4, 3px 3px 6px #000; /* Brillo rosa aún más iluminado + contorno negro */
+            text-shadow: 0 0 15px #FF69B4, 3px 3px 6px #000; /* Brillo rosa más intenso + contorno negro fuerte */
             margin-bottom: 20px;
-            animation: glow 2s ease-in-out infinite alternate; /* Efecto de brillo pulsante para más romanticismo */
-        }
-
-        @keyframes glow {
-            from { text-shadow: 0 0 20px #FF69B4, 3px 3px 6px #000; }
-            to { text-shadow: 0 0 30px #FF69B4, 3px 3px 6px #000; }
         }
 
         p {
@@ -50,13 +37,8 @@
             padding: 10px;
             background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente blanco para contorno */
             border-radius: 10px;
-            text-shadow: 0 0 20px #FF69B4, 3px 3px 6px #000; /* Brillo rosa aún más iluminado + contorno negro */
-            box-shadow: 0 0 25px rgba(255, 105, 180, 0.6); /* Iluminación rosa más intensa y suave */
-            transition: transform 0.3s ease; /* Transición suave al hover */
-        }
-
-        p:hover {
-            transform: scale(1.02); /* Ligero zoom al pasar el mouse para más interacción */
+            text-shadow: 0 0 15px #FF69B4, 3px 3px 6px #000; /* Brillo rosa más intenso + contorno negro fuerte */
+            box-shadow: 0 0 20px rgba(255, 105, 180, 0.5); /* Iluminación rosa suave */
         }
 
         .buttons {
@@ -75,18 +57,17 @@
             padding: 15px 30px;
             border: none;
             border-radius: 10px;
-            background-color: #FF69B4; /* Rosa fuerte, unificado */
+            background-color: #FF69B4; /* Rosa fuerte */
             color: #FFFFFF; /* Blanco */
             cursor: pointer;
             transition: all 0.3s;
-            text-shadow: 0 0 20px #FF69B4, 3px 3px 6px #000; /* Brillo rosa aún más iluminado + contorno negro */
-            box-shadow: 0 0 15px rgba(255, 105, 180, 0.5); /* Sombra rosa para más profundidad */
+            text-shadow: 0 0 15px #FF69B4, 3px 3px 6px #000; /* Brillo rosa más intenso + contorno negro fuerte */
+            box-shadow: 0 0 10px rgba(255, 105, 180, 0.7); /* Sombra rosa para botones */
         }
 
         button:hover {
-            background-color: #FFB6C1; /* Rosa pastel para hover, más suave */
-            box-shadow: 0 0 25px rgba(255, 105, 180, 0.8); /* Iluminación rosa más intensa al hover */
-            transform: scale(1.05); /* Ligero crecimiento para efecto bonito */
+            background-color: #FFB6C1; /* Rosa pastel más claro */
+            box-shadow: 0 0 15px rgba(255, 105, 180, 0.9); /* Más brillo al hover */
         }
 
         #noButton {
@@ -97,32 +78,29 @@
             display: none;
             font-size: 2em;
             margin-top: 20px;
-            text-shadow: 0 0 20px #FF69B4, 3px 3px 6px #000; /* Brillo rosa aún más iluminado + contorno negro */
-            animation: heartBeat 1s ease-in-out infinite; /* Animación de latido para más emoción */
-        }
-
-        @keyframes heartBeat {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-            100% { transform: scale(1); }
+            text-shadow: 0 0 15px #FF69B4, 3px 3px 6px #000; /* Brillo rosa más intenso + contorno negro fuerte */
         }
 
         #extraText {
             display: none;
             margin-top: 20px;
-            animation: slideIn 1s ease-out; /* Animación de deslizamiento para la aparición */
         }
 
-        @keyframes slideIn {
-            from { transform: translateY(20px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
+        /* Oso en la parte derecha */
+        #bear {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 150px; /* Ajusta el tamaño según necesites */
+            height: auto;
+            opacity: 0.9; /* Ligera transparencia para integrarse mejor */
         }
 
         /* Estilos para móvil 9:16 */
         @media (orientation: portrait) {
             body {
                 padding: 10px;
-                background-size: 100%; /* Ajuste para móvil, menos alejado para mejor visibilidad */
             }
             h1 {
                 font-size: 2em;
@@ -134,19 +112,22 @@
                 font-size: 1.2em;
                 padding: 10px 20px;
             }
+            #bear {
+                width: 100px; /* Más pequeño en móvil */
+            }
         }
     </style>
 </head>
 <body>
     <h1>My Princess - Ilysm Pao 💞</h1>
     
-    <p> Espero que ahorita la estes pasando bien con tus amigas ahi paseando ASJDJSADJSA, feliz san valentin adelantado, esto seguro te lo dare cuando sean las 00:00 aqui, osea mi 14 de febrero, planeaba dartelo cuando sea tu 14 de febrero pero seguro vas a estar biennn dormida JAJAJA, te extraño.
+    <p>Espero que ahorita la estés pasando de lo mejor con tu familia y seres queridos festejando este ultimo día del año, quería desearte feliz año nuevo y que se te cumplan todas tus metas, que este año te trate de lo mejor, que sea muchísimo mejor que los anteriores. Te deseo lo mejor, tanto a ti como a tus seres queridos.</p>
     <p>También otra cosita que quería decirte aunque seguro ya sabes JKDSAJKDS, ns por donde comenzar</p>
-    <p>No sé cómo decirte que nunca quise a nadie como te quiero a ti. Que eres la única que imagino en mi vida, la única que quiero ver al final de cada día. Ninguna persona significó lo que tú significas para mí y lo hiciste en tiempo récord. Lograste llenar mi corazón y hasta ponerme nervioso x lo minimo. Podria decir q sos lo mejor q me paso JAJA, lo más bonito que tengo, por mas q no tengamos mucho tiempo hablando</p>
-    <p>Me en encanto tu forma de ser. Me gusto tu risa, tu voz, todo de ti. cuando me hablas bonito, cuando haces cualquier cosa. Me gustas incluso en lo que no haces, porque simplemente existir ya te vuelve especial.</p>
-    <p>Te amo tanto que a veces me quedo sin palabras, pero nunca sin ganas. Sin ganas de querer estar para ti, de seguir queriendo que tu y yo seamos algo, que estemos queriendonos uno al otro, ojala siga siendo asi, porque solo te quiero a ti, solamente quiero estar junto a ti.</p>
-    <p>Me importas, me gustas, y me encantaría poder compartirlo todo contigo. Gracias por hacerme sentir tan bien en tan poco tiempo, este tiempo contigo ha sido de lo mejor que me ha pasado. Y si todo esto aún no te lo deja claro, t lo digo una ultima vez: te amo, Pao. Me gustas de verdad, me gustas muchísimo.</p>
-    <p>¿Puedo ser tu Novio? Puedo ser esa persona que esté para vos, que te apoye, que te escuche, que te acompañe en lo bueno y en lo difícil también?</p>
+    <p>No sé cómo decirte que nunca quise a nadie como te quiero a ti. Que eres la única que imagino en mi vida, la única que quiero ver al final de cada día. Ninguna persona significó lo que tú significas para mí y lo hiciste en tiempo récord. Lograste llenar mi corazón y hacerme morir de emoción por tan solo un mensaje. Eres lo mejor que me pasó, lo más bonito que tengo, la tranquilidad que no sabía que necesitaba.</p>
+    <p>Me enamoras con tus detalles, con tu forma de ser, con tus errores y tus pasiones. Me enamoras cuando te ríes, cuando te enojas poquito, cuando dices mi nombre, cuando me hablas bonito sin darte cuenta. Me enamoras incluso en lo que no haces, porque simplemente existir ya te vuelve especial.</p>
+    <p>Te amo tanto que a veces me quedo sin palabras, pero nunca sin ganas. Sin ganas de cuidarte, de elegirte, de estar para ti, de seguir construyendo algo que solo tú y yo entendemos, y espero que siga así, porque solo te quiero a ti, solamente quiero estar junto a ti.</p>
+    <p>Me importas, me gustas, y me encantaría poder compartirlo todo contigo. Gracias por hacerme sentir tan bien en tan poco tiempo, este tiempo contigo ha sido de lo mejor que me ha pasado. Y si todo esto aún no te lo deja claro, déjame decirlo una última vez: te amo, Pao. Me gustas de verdad, me gustas muchísimo.</p>
+    <p>¿Me permitirías ser tu novio? Puedo ser esa persona que esté para ti, que te apoye, que te escuche, que te acompañe en lo bueno y en lo difícil también?</p>
 
     <div class="buttons">
         <button id="yesButton">Sí</button>
@@ -156,11 +137,14 @@
     <div id="loveMessage">TE AMOOOOOOO</div>
     <div id="extraText">
         <p>Gracias por decir que sí. En serio, gracias por confiar en mí, por aceptarme ser tu pareja, aunque apenas comienza, ya significa muchísimo para mi.</p>
-        <p>Te prometería mil cosas aunque solo sean palabras y próximamente te lo demuestro con hechos, pero sí te prometo algo muyyreal: Por mas que tenga fama de infiel, mentiroso y demas, eso no es vdd, yo te prometo serte siempre fiel y leal, decirte siempre la verdad antes de cualquier cosa, estar para vos cuando me quieras tener. Prometo darte lo mejor de mí, incluso en los días que me sienta para la mierda.</p>
-        <p>Te aviso que no te quiero para pasar el rato, ni por llenar un vacio, te quiero para darte todo lo que te mereces, el amor que te mereces, demostrarte como de verdad tienes que ser tratada. Algo que tenga sentido, que mejore mas con el tiempo y no se acabe.</p>
-        <p>Me importas muchisiiimoo mas de lo que imaginás, por ti estoy dispuesto a dar mucho, basicamente todo. No porque lo sienta como una obligación, sino porque yo lo quiero hacer. Porque cuando alguien te hace sentir bien con solo estar, lo mínimo que uno puede querer es hacer lo mismo por ella.</p>
+        <p>Te prometería mil cosas aunque solo sean palabras y próximamente te lo demuestro con hechos, pero sí te prometo algo real: compromiso, respeto, cuidado y tiempo. Prometo darte lo mejor de mí, incluso en los días que me sienta para la mierda.</p>
+        <p>Te aviso que no te quiero para pasar el rato, ni por llenar un vacio, te quiero para darte todo lo que te mereces, el amor que te mereces, demostrarte como de verdad tienes que ser tratada. Algo que tenga sentido, que crezca cada vez mas con el tiempo.</p>
+        <p>Me importas muchisiimoo mas de lo que imaginás, por ti estoy dispuesto a dar mucho, basicamente todo. No porque lo sienta como una obligación, sino porque yo quiero hacerlo. Porque cuando alguien te hace sentir bien con solo estar, lo mínimo que uno puede querer es hacer lo mismo por ella.</p>
         <p>Quiero cuidarte, apoyarte, estar siempre para vos, quiero ser tu paz, no causarte caos. Porque algo que lo tengo claro, es que vale la pena intentarlo contigo. Gracias por darme esta oportunidad. No la pienso desaprovechar.</p>
     </div>
+
+    <!-- Imagen del oso en la parte derecha -->
+    <img id="bear" src="https://i.pinimg.com/564x/8a/5c/8b/8a5c8b8a8a8a8a8a8a8a8a8a8a8a8a8a.jpg" alt="Oso rosa"> <!-- URL de imagen de oso rosa teddy bear -->
 
     <script>
         const noButton = document.getElementById('noButton');
@@ -172,9 +156,9 @@
         let noClickCount = 0;
         const messages = [
             "Por qué no amor??",
-            "Segura mi vida?",
+            "Segura mi niña?",
             "Totalmente segura amor??",
-            "Porfaa di que sí"
+            "Porfisss di que sí"
         ];
 
         noButton.addEventListener('click', function(event) {
@@ -210,3 +194,5 @@
             }, 2000);
         });
     </script>
+</body>
+</html>
