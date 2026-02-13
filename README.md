@@ -106,12 +106,12 @@
 <body>
     <h1>My Princess - Ilysm Pao 💞</h1>
     
-    <p>Espero que ahorita la estés pasando de lo mejor con tu familia y seres queridos festejando este ultimo día del año, quería desearte feliz año nuevo y que se te cumplan todas tus metas, que este año te trate de lo mejor, que sea muchísimo mejor que los anteriores. Te deseo lo mejor, tanto a ti como a tus seres queridos.</p>
-    <p>También otra cosita que quería decirte aunque seguro ya sabes JKDSAJKDS, ns por donde comenzar</p>
-    <p>No sé cómo decirte que nunca quise a nadie como te quiero a ti. Que eres la única que imagino en mi vida, la única que quiero ver al final de cada día. Ninguna persona significó lo que tú significas para mí y lo hiciste en tiempo récord. Lograste llenar mi corazón y hacerme morir de emoción por tan solo un mensaje. Eres lo mejor que me pasó, lo más bonito que tengo, la tranquilidad que no sabía que necesitaba.</p>
-    <p>Me enamoras con tus detalles, con tu forma de ser, con tus errores y tus pasiones. Me enamoras cuando te ríes, cuando te enojas poquito, cuando dices mi nombre, cuando me hablas bonito sin darte cuenta. Me enamoras incluso en lo que no haces, porque simplemente existir ya te vuelve especial.</p>
-    <p>Te amo tanto que a veces me quedo sin palabras, pero nunca sin ganas. Sin ganas de cuidarte, de elegirte, de estar para ti, de seguir construyendo algo que solo tú y yo entendemos, y espero que siga así, porque solo te quiero a ti, solamente quiero estar junto a ti.</p>
-    <p>Me importas, me gustas, y me encantaría poder compartirlo todo contigo. Gracias por hacerme sentir tan bien en tan poco tiempo, este tiempo contigo ha sido de lo mejor que me ha pasado. Y si todo esto aún no te lo deja claro, déjame decirlo una última vez: te amo, Pao. Me gustas de verdad, me gustas muchísimo.</p>
+    <p>Espero que la hayas pasado bien con tus amigas en el paseo ese q me contaste linda, te extraño muchisimo. Feliz San Valentin, feliz 14 de febrero espero la pases bien y te hayan regalado cosasss, todo esto te lo digo en pasado xq aun no es, asi q feliz san valentin adelantado, esto te lo voy a dar a mis 00:00 porque seguro a tus 12 vas a estar biennn dormida JSADJSA, te amooo</p>
+    <p>También otra cosita que quería decirte aunque seguro ya vas a saber, ns por donde comenzar</p>
+    <p>No sé cómo decirte que nunca quise a nadie como te quiero a ti. Que eres la única quiero en mi vida.  Ninguna persona significó lo que tú significas para mí y lo hiciste en tiempo récord. Lograste llenar mi corazón y hacerme morir de emoción por tan solo un mensaje. Eres lo mejor que me pasó, lo más bonito que tengo, algo que no sabia q necesitaba.</p>
+    <p>Me encanta tu forma de ser, tu manera de expresarte, tus "nada" "Nose" aunq me queje AJJAJA , me gusta tu risa, tu voz,cu,ando me hablas bonito. Me gusta todo lo que haces basicamente, simplemente existir ya te vuelve especial.</p>
+    <p>Te amo tanto que a veces me quedo sin palabras, pero nunca sin ganas. Sin ganas de estar para vos, de seguir queriendo que tu y yo lleguemos a ser algo, espero que siga así, porque solo te quiero a ti, solamente quiero estar junto a ti.</p>
+    <p>Me importas, me gustas, y me encantaría poder compartirlo todo contigo. Gracias por hacerme sentir tan bien en tan poco tiempo, este tiempo contigo ha sido de lo mejor que me ha pasado. Y si todo esto aún no te lo deja claro, t lo digo otra vez mas: te amo, Pao. Me encanta pasar tiempo con vos aunque sea en silencio, asi como me lo dijiste,con vos es la unica vez que el silencio no me incomoda. me gusta todo de ti, eres perfecta. </p>
     <p>¿Me permitirías ser tu novio? Puedo ser esa persona que esté para ti, que te apoye, que te escuche, que te acompañe en lo bueno y en lo difícil también?</p>
 
     <div class="buttons">
@@ -122,10 +122,10 @@
     <div id="loveMessage">TE AMOOOOOOO</div>
     <div id="extraText">
         <p>Gracias por decir que sí. En serio, gracias por confiar en mí, por aceptarme ser tu pareja, aunque apenas comienza, ya significa muchísimo para mi.</p>
-        <p>Te prometería mil cosas aunque solo sean palabras y próximamente te lo demuestro con hechos, pero sí te prometo algo real: compromiso, respeto, cuidado y tiempo. Prometo darte lo mejor de mí, incluso en los días que me sienta para la mierda.</p>
-        <p>Te aviso que no te quiero para pasar el rato, ni por llenar un vacio, te quiero para darte todo lo que te mereces, el amor que te mereces, demostrarte como de verdad tienes que ser tratada. Algo que tenga sentido, que crezca cada vez mas con el tiempo.</p>
-        <p>Me importas muchisiimoo mas de lo que imaginás, por ti estoy dispuesto a dar mucho, basicamente todo. No porque lo sienta como una obligación, sino porque yo quiero hacerlo. Porque cuando alguien te hace sentir bien con solo estar, lo mínimo que uno puede querer es hacer lo mismo por ella.</p>
-        <p>Quiero cuidarte, apoyarte, estar siempre para vos, quiero ser tu paz, no causarte caos. Porque algo que lo tengo claro, es que vale la pena intentarlo contigo. Gracias por darme esta oportunidad. No la pienso desaprovechar.</p>
+        <p>Te prometería mil cosas aunque solo sean palabras y próximamente te lo demuestro con hechos, pero sí te prometo algo real:Por mas que tenga mala fama, como ya te enteraste, mala fama de que segun soy infiel, mentiroso y demas, no le hagas caso a nada de eso, todo fake. Prometo serte 100% fiel, nunca mentirte, serte siempre leal, decirte siempre la verdad ante cualquier cosa. Prometo ser la mejor version de mi contigo. Prometo darte lo mejor de mí, incluso en los días que me sienta para la mierda.</p>
+        <p>Te aviso que no te quiero para pasar el rato, ni por llenar un vacio, te quiero para darte todo lo que te mereces, el amor que te mereces, demostrarte como de verdad tienes que ser tratada. Algo que sea real, que se fortalezca cada vez mas con el tiempo.</p>
+        <p>Me importas muchisiiiimoo mas de lo que imaginás, por ti estoy dispuesto a dar mucho, basicamente todo. No porque lo sienta como una obligación, sino porque yo quiero hacerlo. Porque cuando alguien te hace sentir bien con solo estar, lo mínimo que uno puede querer es hacer lo mismo por ella.</p>
+        <p>Quiero estar siempre para vos, quiero ayudarte cuando te sientas mal, no causarte mas problemas de los que ya tienes. Algo que lo tengo muyyyy clarisimo es que vale la pena intentarlo contigo. Gracias por darme esta oportunidad. No la pienso desaprovechar.</p>
     </div>
 
     <script>
