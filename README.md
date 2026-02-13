@@ -1,3 +1,6 @@
+html
+
+Copy code
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +10,7 @@
     <style>
         body {
             font-family: 'Dancing Script', cursive; /* Fuente script cursiva y fácil de entender */
-            background-color: #FFB6C1; /* Rosa pastel sólido */
+            background-image: url('https://i.pinimg.com/originals/ea/51/e4/ea51e4af67919f7b2e0ae417f063952e.gif'); /* GIF como fondo */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -21,12 +24,12 @@
             min-height: 100vh;
             text-align: center;
             overflow-x: hidden;
-            position: relative; /* Para posicionar el oso */
+            position: relative; /* Para posicionar elementos */
         }
 
         h1 {
             font-size: 2.5em;
-            text-shadow: 0 0 10px #FF69B4, 2px 2px 4px #000; /* Brillo rosa + contorno negro */
+            text-shadow: 0 0 15px #FF69B4, 3px 3px 6px #000; /* Brillo rosa más iluminado + contorno negro */
             margin-bottom: 20px;
         }
 
@@ -37,8 +40,8 @@
             padding: 10px;
             background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente blanco para contorno */
             border-radius: 10px;
-            text-shadow: 0 0 10px #FF69B4, 2px 2px 4px #000; /* Brillo rosa + contorno negro */
-            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3); /* Iluminación rosa */
+            text-shadow: 0 0 15px #FF69B4, 3px 3px 6px #000; /* Brillo rosa más iluminado + contorno negro */
+            box-shadow: 0 0 20px rgba(255, 105, 180, 0.5); /* Iluminación rosa más intensa */
         }
 
         .buttons {
@@ -57,15 +60,16 @@
             padding: 15px 30px;
             border: none;
             border-radius: 10px;
-            background-color: #FF69B4; /* Rosa fuerte */
+            background-color: #FF69B4; /* Rosa fuerte, unificado */
             color: #FFFFFF; /* Blanco */
             cursor: pointer;
             transition: all 0.3s;
-            text-shadow: 0 0 10px #FF69B4, 2px 2px 4px #000; /* Brillo rosa + contorno negro */
+            text-shadow: 0 0 15px #FF69B4, 3px 3px 6px #000; /* Brillo rosa más iluminado + contorno negro */
         }
 
         button:hover {
-            background-color: #FFB6C1; /* Rosa pastel más claro */
+            background-color: #FF69B4; /* Rosa fuerte, unificado para consistencia */
+            box-shadow: 0 0 20px rgba(255, 105, 180, 0.8); /* Iluminación rosa más intensa */
         }
 
         #noButton {
@@ -76,22 +80,12 @@
             display: none;
             font-size: 2em;
             margin-top: 20px;
-            text-shadow: 0 0 10px #FF69B4, 2px 2px 4px #000; /* Brillo rosa + contorno negro */
+            text-shadow: 0 0 15px #FF69B4, 3px 3px 6px #000; /* Brillo rosa más iluminado + contorno negro */
         }
 
         #extraText {
             display: none;
             margin-top: 20px;
-        }
-
-        /* Oso en la parte derecha */
-        #bear {
-            position: absolute;
-            right: 20px;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 150px; /* Ajusta el tamaño según necesites */
-            height: auto;
         }
 
         /* Estilos para móvil 9:16 */
@@ -108,9 +102,6 @@
             button {
                 font-size: 1.2em;
                 padding: 10px 20px;
-            }
-            #bear {
-                width: 100px; /* Más pequeño en móvil */
             }
         }
     </style>
@@ -139,9 +130,6 @@
         <p>Me importas muchisiiimoo mas de lo que imaginás, por ti estoy dispuesto a dar mucho, basicamente todo. No porque lo sienta como una obligación, sino porque yo lo quiero hacer. Porque cuando alguien te hace sentir bien con solo estar, lo mínimo que uno puede querer es hacer lo mismo por ella.</p>
         <p>Quiero cuidarte, apoyarte, estar siempre para vos, quiero ser tu paz, no causarte caos. Porque algo que lo tengo claro, es que vale la pena intentarlo contigo. Gracias por darme esta oportunidad. No la pienso desaprovechar.</p>
     </div>
-
-    <!-- Imagen del oso en la parte derecha -->
-    <img id="bear" src="https://i.pinimg.com/736x/5c/8b/8a/5c8b8a8a8a8a8a8a8a8a8a8a8a8a8a8a.jpg" alt="Oso rosa"> <!-- Reemplaza con una URL de imagen de oso rosa si es necesario -->
 
     <script>
         const noButton = document.getElementById('noButton');
