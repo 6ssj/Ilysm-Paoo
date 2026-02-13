@@ -129,7 +129,7 @@
     </div>
 
     <!-- Música de fondo -->
-    <audio id="bgMusic" autoplay loop preload="auto">
+    <audio id="bgMusic" loop preload="auto">
         <source src="https://www.ytmp3.cc/download.php?video_id=a7ms3r-qt0E&type=mp3" type="audio/mpeg">
         Tu navegador no soporta el elemento de audio.
     </audio>
@@ -142,10 +142,18 @@
         const buttons = document.querySelector('.buttons');
         const bgMusic = document.getElementById('bgMusic');
 
-        // Iniciar la música desde el minuto 0:48 (48 segundos)
-        bgMusic.addEventListener('loadedmetadata', function() {
-            bgMusic.currentTime = 48; // Salta a 48 segundos
-        });
+        // Función para activar la música al primer click
+        function startMusic() {
+            bgMusic.play().then(() => {
+                bgMusic.currentTime = 48; // Salta a 48 segundos
+            }).catch(error => {
+                console.log('Error al reproducir música:', error);
+            });
+            document.removeEventListener('click', startMusic); // Remueve el listener después del primer click
+        }
+
+        // Agrega el listener para el primer click en la página
+        document.addEventListener('click', startMusic);
 
         let noClickCount = 0;
         const messages = [
@@ -188,3 +196,5 @@
             }, 2000);
         });
     </script>
+</body>
+</html>
