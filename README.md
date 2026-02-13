@@ -8,7 +8,7 @@
         body {
             font-family: 'Dancing Script', cursive; /* Fuente script cursiva y fácil de entender */
             background-image: url('https://i.pinimg.com/originals/df/ed/26/dfed26e4619107663b5a45d0c8a7da3d.gif'); /* GIF proporcionado como fondo */
-            background-size: cover;
+            background-size: contain; /* Cambiado a contain para hacer el GIF más pequeño y alejado */
             background-position: center;
             background-repeat: no-repeat;
             color: #FFFFFF; /* Blanco para letras */
@@ -176,4 +176,3 @@
             }, 2000);
         });
     </script>
-</body>
