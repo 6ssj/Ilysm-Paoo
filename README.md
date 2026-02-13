@@ -1,4 +1,3 @@
-
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -119,13 +118,13 @@
 <body>
     <h1>My Princess - Ilysm Pao 💞</h1>
     
-    <p>Espero que ahorita la estés pasando de lo mejor con tu familia y seres queridos festejando este ultimo día del año, quería desearte feliz año nuevo y que se te cumplan todas tus metas, que este año te trate de lo mejor, que sea muchísimo mejor que los anteriores. Te deseo lo mejor, tanto a ti como a tus seres queridos.</p>
+    <p> Espero que ahorita la estes pasando bien con tus amigas ahi paseando ASJDJSADJSA, feliz san valentin adelantado, esto seguro te lo dare cuando sean las 00:00 aqui, osea mi 14 de febrero, planeaba dartelo cuando sea tu 14 de febrero pero seguro vas a estar biennn dormida JAJAJA, te extraño.
     <p>También otra cosita que quería decirte aunque seguro ya sabes JKDSAJKDS, ns por donde comenzar</p>
-    <p>No sé cómo decirte que nunca quise a nadie como te quiero a ti. Que eres la única que imagino en mi vida, la única que quiero ver al final de cada día. Ninguna persona significó lo que tú significas para mí y lo hiciste en tiempo récord. Lograste llenar mi corazón y hacerme morir de emoción por tan solo un mensaje. Eres lo mejor que me pasó, lo más bonito que tengo, la tranquilidad que no sabía que necesitaba.</p>
-    <p>Me enamoras con tus detalles, con tu forma de ser, con tus errores y tus pasiones. Me enamoras cuando te ríes, cuando te enojas poquito, cuando dices mi nombre, cuando me hablas bonito sin darte cuenta. Me enamoras incluso en lo que no haces, porque simplemente existir ya te vuelve especial.</p>
-    <p>Te amo tanto que a veces me quedo sin palabras, pero nunca sin ganas. Sin ganas de cuidarte, de elegirte, de estar para ti, de seguir construyendo algo que solo tú y yo entendemos, y espero que siga así, porque solo te quiero a ti, solamente quiero estar junto a ti.</p>
-    <p>Me importas, me gustas, y me encantaría poder compartirlo todo contigo. Gracias por hacerme sentir tan bien en tan poco tiempo, este tiempo contigo ha sido de lo mejor que me ha pasado. Y si todo esto aún no te lo deja claro, déjame decirlo una última vez: te amo, Pao. Me gustas de verdad, me gustas muchísimo.</p>
-    <p>¿Me permitirías ser tu novio? Puedo ser esa persona que esté para ti, que te apoye, que te escuche, que te acompañe en lo bueno y en lo difícil también?</p>
+    <p>No sé cómo decirte que nunca quise a nadie como te quiero a ti. Que eres la única que imagino en mi vida, la única que quiero ver al final de cada día. Ninguna persona significó lo que tú significas para mí y lo hiciste en tiempo récord. Lograste llenar mi corazón y hasta ponerme nervioso x lo minimo. Podria decir q sos lo mejor q me paso JAJA, lo más bonito que tengo, por mas q no tengamos mucho tiempo hablando</p>
+    <p>Me en encanto tu forma de ser. Me gusto tu risa, tu voz, todo de ti. cuando me hablas bonito, cuando haces cualquier cosa. Me gustas incluso en lo que no haces, porque simplemente existir ya te vuelve especial.</p>
+    <p>Te amo tanto que a veces me quedo sin palabras, pero nunca sin ganas. Sin ganas de querer estar para ti, de seguir queriendo que tu y yo seamos algo, que estemos queriendonos uno al otro, ojala siga siendo asi, porque solo te quiero a ti, solamente quiero estar junto a ti.</p>
+    <p>Me importas, me gustas, y me encantaría poder compartirlo todo contigo. Gracias por hacerme sentir tan bien en tan poco tiempo, este tiempo contigo ha sido de lo mejor que me ha pasado. Y si todo esto aún no te lo deja claro, t lo digo una ultima vez: te amo, Pao. Me gustas de verdad, me gustas muchísimo.</p>
+    <p>¿Puedo ser tu Novio? Puedo ser esa persona que esté para vos, que te apoye, que te escuche, que te acompañe en lo bueno y en lo difícil también?</p>
 
     <div class="buttons">
         <button id="yesButton">Sí</button>
@@ -135,9 +134,9 @@
     <div id="loveMessage">TE AMOOOOOOO</div>
     <div id="extraText">
         <p>Gracias por decir que sí. En serio, gracias por confiar en mí, por aceptarme ser tu pareja, aunque apenas comienza, ya significa muchísimo para mi.</p>
-        <p>Te prometería mil cosas aunque solo sean palabras y próximamente te lo demuestro con hechos, pero sí te prometo algo real: compromiso, respeto, cuidado y tiempo. Prometo darte lo mejor de mí, incluso en los días que me sienta para la mierda.</p>
-        <p>Te aviso que no te quiero para pasar el rato, ni por llenar un vacio, te quiero para darte todo lo que te mereces, el amor que te mereces, demostrarte como de verdad tienes que ser tratada. Algo que tenga sentido, que crezca cada vez mas con el tiempo.</p>
-        <p>Me importas muchisiimoo mas de lo que imaginás, por ti estoy dispuesto a dar mucho, basicamente todo. No porque lo sienta como una obligación, sino porque yo quiero hacerlo. Porque cuando alguien te hace sentir bien con solo estar, lo mínimo que uno puede querer es hacer lo mismo por ella.</p>
+        <p>Te prometería mil cosas aunque solo sean palabras y próximamente te lo demuestro con hechos, pero sí te prometo algo muyyreal: Por mas que tenga fama de infiel, mentiroso y demas, eso no es vdd, yo te prometo serte siempre fiel y leal, decirte siempre la verdad antes de cualquier cosa, estar para vos cuando me quieras tener. Prometo darte lo mejor de mí, incluso en los días que me sienta para la mierda.</p>
+        <p>Te aviso que no te quiero para pasar el rato, ni por llenar un vacio, te quiero para darte todo lo que te mereces, el amor que te mereces, demostrarte como de verdad tienes que ser tratada. Algo que tenga sentido, que mejore mas con el tiempo y no se acabe.</p>
+        <p>Me importas muchisiiimoo mas de lo que imaginás, por ti estoy dispuesto a dar mucho, basicamente todo. No porque lo sienta como una obligación, sino porque yo lo quiero hacer. Porque cuando alguien te hace sentir bien con solo estar, lo mínimo que uno puede querer es hacer lo mismo por ella.</p>
         <p>Quiero cuidarte, apoyarte, estar siempre para vos, quiero ser tu paz, no causarte caos. Porque algo que lo tengo claro, es que vale la pena intentarlo contigo. Gracias por darme esta oportunidad. No la pienso desaprovechar.</p>
     </div>
 
@@ -154,9 +153,9 @@
         let noClickCount = 0;
         const messages = [
             "Por qué no amor??",
-            "Segura mi niña?",
+            "Segura mi vida?",
             "Totalmente segura amor??",
-            "Porfisss di que sí"
+            "Porfaa di que sí"
         ];
 
         noButton.addEventListener('click', function(event) {
