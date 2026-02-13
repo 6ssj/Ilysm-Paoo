@@ -179,5 +179,3 @@ Copy code
             }, 2000);
         });
     </script>
-</body>
-</html>
